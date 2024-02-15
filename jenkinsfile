@@ -1,5 +1,5 @@
 pipeline {
-    agent {Agent}
+    Agent
 
     environment {
         DOCKER_IMAGE_NAME = 'calculator'
