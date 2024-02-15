@@ -1,5 +1,5 @@
 pipeline {
-    agent Agent
+    agent AGENT-label
 
     environment {
         DOCKER_IMAGE_NAME = 'calculator'
